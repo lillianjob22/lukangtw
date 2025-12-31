@@ -1,0 +1,58 @@
+/* P{color: #2121d6;} */
+
+/* .textFormat{font-size: 32px;color: #dd9933;} */
+
+/* GoogleFonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root,
+[data-bs-theme=light]{
+--bs-dark-rgb: 24,92,161 ;   
+}
+
+/* 變更跟元素大小 */
+html{font-size: 20px;}
+body {font-family: '微軟正黑體', "Noto Sans TC", sans-serif;}
+
+
+
+
+
+
+/* 標題一級文字大小 */
+h1{font-size: 2rem;}
+
+/* 標題二級的文字設定，選取器是標籤，影響整體 */
+h2{font-size: 1.8rem;font-weight: 800;color: rgb(39,102,229);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 800;color: rgb(255,0,195);}
+
+/* 段落間距 */
+p{
+   margin-top: 0;
+   margin-bottom:  0.5rem;
+}
+/* Card樣式 */
+.card {
+    --bs-card-title-color: rgb(24,76,160);
+    --bs-card-border-width:1px;
+    --bs-card-border-color: rgb(24,76,160);
+}
+
+/* 局部文字色彩 */
+.text-orange {
+  color: #dd5500;
+}
+
+/* 自訂清單符號 */
+.listCircle {list-style-type: circle;}
+
+
+
+/* 自訂編號清單的編號 */
+.listRoman {list-style-type: upper-roman;}
+
+
+
+
